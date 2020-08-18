@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings= mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         mywebView.loadUrl("https://www.sheywehospital.co.ke/");
+        mywebView.setWebViewClient(new WebViewClient());
     }
 }
